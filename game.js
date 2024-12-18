@@ -406,6 +406,7 @@ class Game {
             }
         }
         // draw a blinking cursor for the player's current position
+        let roomPos = utils.world2tile(this.player.pos);
         if (Math.floor(this.time * 3) % 2 == 0) {
             render.setLineWidth(2);
             render.setColor(0,0,0, 0.5);
