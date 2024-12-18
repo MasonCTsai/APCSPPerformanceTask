@@ -1,0 +1,9 @@
+/* index.css */
+/* centers the canvas, and gives it a top margin */
+#game {
+    display: block; 
+    margin: 0 auto; 
+    border-width: 0px;
+    object-fit: contain;
+    margin-top: 40px;
+}

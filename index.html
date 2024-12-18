@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!-- sets the document type to use HTML5 -->
+<!DOCTYPE html>
+<!-- The page is in english -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link the style sheet for the canvas -->
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <!-- name of the game/tab -->
+    <title>Stronghold Dash</title>
+</head>
+<!-- body element, light blue background and disabled context menu for easier touchpad -->
+<body style="background-color: #E8EEF2;" oncontextmenu="return false;">
+    <!-- the canvas, where the game is drawn to -->
+    <canvas id="game" width="800px"></canvas>
+    <!-- loaded image hosted on github for use in the canvas, hence the hidden tag -->
+    <img hidden id="tutorial" src="https://raw.githubusercontent.com/MasonCTsai/APCSPPerformanceTask/refs/heads/main/tutorial.png">
+</body>
+<!-- the game script -->
+<script type="module" src="index.js"></script>
+</html>
